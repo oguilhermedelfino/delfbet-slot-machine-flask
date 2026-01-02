@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelfBET - Simulador</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Orbitron:wght@500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    <div class="casino-container">
+        <header class="game-header">
+            <h1 class="logo">Delf<span class="highlight">BET</span></h1>
+        </header>
+
+        <div class="machine-frame">
+            <div class="balance-display">
+                <span>BANCA:</span>
+                <span id="display-saldo">R$ {{ saldo|float }}</span>
+            </div>
+
+            <div class="slots-window">
+                <div class="reel-container">
+                    <div class="reel" id="rolo1">🍒</div>
+                </div>
+                <div class="reel-container">
+                    <div class="reel" id="rolo2">🍒</div>
+                </div>
+                <div class="reel-container">
+                    <div class="reel" id="rolo3">🍒</div>
+                </div>
+            </div>
+
+            <div class="message-area">
+                <p id="mensagem-jogo">Aperte GIRAR para começar</p>
+            </div>
+
+            <div class="controls">
+                <button id="botao-girar" class="neon-button">GIRAR (R$ 2,00)</button>
+            </div>
+        </div>
+
+        <footer class="educational-footer">
+            <p>⚠️ <strong>Projeto Educativo:</strong> Demonstração de algoritmos "Near Miss". Nenhum dinheiro real envolvido.</p>
+        </footer>
+    </div>
+
+    <script src="static/script/script.js"></script>
+</body>
+</html>
