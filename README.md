@@ -99,7 +99,9 @@ A aplicação estará disponível em:
 O projeto está disponível online no link abaixo:
 
 🔗 <strong>Deploy no Render:</strong><br>
-<em>https://delfbet.onrender.com</em>
+<em>[https://delfbet-cassino.onrender.com](https://delfbet-cassino.onrender.com)</em>
+
+<strong>Nota:<strong> Como a hospedagem é gratuita, a primeira requisição pode demorar cerca de 50 segundos enquanto a aplicação "acorda".
 
 ---
 
